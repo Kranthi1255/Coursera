@@ -1,0 +1,54 @@
+h1{
+  text-align: center;
+}
+
+.bod{
+  border-style: solid;
+  background-color: lightgrey;
+  width: auto;
+  border-radius:5px;
+
+}
+.pad{
+  padding: 3px;
+}
+
+.edge{
+  text-align: end;
+  background-color: orange;
+  float: right;
+  padding: 4px;
+}
+
+@media (min-width: 992px) {
+  .col-lg-4 {
+  	float: left;  
+    width: 32%;
+    margin-left:1%;
+  }
+}
+/********** Medium devices only **********/
+@media (min-width: 768px) and (max-width: 991px) {
+  .col-md-6,.col-md-12 {
+    float: left;
+    margin-bottom: 5px;
+  }
+  
+  .col-md-6 {
+    width: 49%;
+    margin-left:1%;
+    }
+  .col-md-12 {  
+    width: 99%;
+    margin-left: 1%;
+  }
+}
+
+@media (min-width: 0px) and (max-width: 767px) {
+  .col-sm-12 {
+  	float: left;
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+}
